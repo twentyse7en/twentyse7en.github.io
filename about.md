@@ -19,7 +19,7 @@ and Martin Scorsese are my favorite directors.
 
 Checkout my projects [@Github](https://github.com/twentyse7en/)
 
-## Skils
+## Skills
 
 **Language :** Python, C++, C, Javascript
 
@@ -27,20 +27,6 @@ Checkout my projects [@Github](https://github.com/twentyse7en/)
 
 **Misc :** Pandas, Numpy, React, Flask, Shell
 
-## Projects:
-1. #### [Book Recommendation Engine]():
-    * Book recommendation system based on data from Goodreads. 
-    * The approaches used are item affinity and Matrix factorization. 
-    * Experimenting with ANN to measure the effect of the book cover on user rating.
-
-2. #### [Kompressor](https://github.com/twentyse7en/kompressor)
-    * Performs pixel-wise color quantization using K-Means.
-    * Reducing the no. of colors in the image as the user specifies.
-
-3. #### [Wi-mote](https://github.com/Dink4n/wi-mote)
-    * Developed a full stack web application using Flask and React.
-    * Control media on device over wifi.
-    * Effortless connection using QR-code scanning.
 
 ## Work Experience
 1. #### Google Summer of Code | Python Software Foundation
