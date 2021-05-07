@@ -1,0 +1,31 @@
+# Setup
+title:               Abijith B
+tagline:             'Pieces on technology and personal thoughts!'
+
+# description:         '<a href="https://github.com/ritiek" target="_blank">GitHub</a>,
+#                       <a href="https://stackoverflow.com/users/6554943/ritiek">Stack Overflow</a>,
+#                       <a href="https://www.reddit.com/user/Ritiek">Reddit</a><br>
+#                       <!-- <a href="https://www.linkedin.com/in/ritiek/">LinkedIn</a><br> -->
+#                       <br>
+#                       Reach me at<br>
+#                       <a href="mailto:ritiekmalhotra123@gmail.com">ritiekmalhotra123@gmail.com</a><br>'
+# description:         Peices on technology!
+description:         Posts ranging from technology to my personal thoughts on various topics
+
+url:                 https://twentyse7en.github.io
+baseurl:             ''
+paginate:            3
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Abijith B
+  url:               https://twentyse7en.github.io/
+  email:             abijithbahuleyan@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+google_analytics_id: #UA-XXXX-Y
