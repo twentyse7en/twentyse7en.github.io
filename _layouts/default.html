@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="theme-base-08">
 
     {% include sidebar.html %}
 
@@ -13,6 +13,11 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
+            <div class="header-logo-wrap logo-small">
+                <span class="header-logo logo-small">
+                    <img src="https://en.gravatar.com/userimage/137886331/9c0b1eb6d29f629067133097b79223d9.jpg?size=128" class="profileimage" alt="">
+                </span>
+            </div>
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
@@ -22,6 +27,7 @@
       <div class="container content">
         {{ content }}
       </div>
+
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>

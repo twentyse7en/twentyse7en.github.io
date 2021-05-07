@@ -4,8 +4,25 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <br>
+  <div class="sidebar-item" style="text-align: center;">
+    <div class="nav-header-image">
+        <div class="header-logo-wrap">
+            <span class="header-logo">
+                <img src="https://en.gravatar.com/userimage/137886331/9c0b1eb6d29f629067133097b79223d9.jpg?size=128" class="profileimage" alt="">
+            </span>
+        </div>
+    </div>
+    <br>
     <p>{{ site.description }}</p>
+    <div class="social-links-wrapper">
+        <ul class="social-links">
+            <li><a href="https://github.com/twentyse7en"><i class="fa fa-github fa-inverse"></i> </a></li>
+            <li><a href="https://www.linkedin.com/in/abijith-b-771b98153/"><i class="fa fa-linkedin fa-inverse"></i></a></li>
+            <li><a href="mailto:abijithbahuleyan@gmail.com"><i class="fa fa-envelope fa-inverse"></i></a></li>
+            <li><a href="{{ site.baseurl }}/atom.xml"><i class="fa fa-rss fa-inverse"></i></a></li>
+        </ul>
+    </div>
   </div>
 
   <nav class="sidebar-nav">
@@ -25,9 +42,9 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
+    <span class="sidebar-nav-item">{{ site.title }}</span>
   </nav>
 
   <div class="sidebar-item">
