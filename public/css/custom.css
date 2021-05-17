@@ -67,7 +67,7 @@ ul.social-links li a i {
     color: #fff;
 }
 
-ul li {
+.social-list {
     display: inline;
     float: left;
 }
